@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Solo Leveling Fitness 🌟
 
-## Getting Started
+30-day progressive workout program - mulai dari ringan, tambah berat setiap hari!
 
-First, run the development server:
+## 🎯 Fitur
+
+- **30 Hari Program** - Latihan progressif dari Day 1 (ringan) sampai Day 30 (maximum intensity)
+- **Visual Intensity Meter** - Tingkat kesulitan yang jelas (1-10)
+- **Full Body Workout** - Kombinasi cardio, strength, dan core
+- **No Equipment Needed** - Latihan bodyweight saja
+- **Responsive Design** - Bisa dibuka di HP atau laptop
+
+## 🚀 Cara Deploy ke Vercel
+
+### Prerequisites
+- Node.js 18+
+- Vercel Account
+
+### Langkah Deploy
 
 ```bash
+# 1. Clone repository
+git clone https://github.com/mail-eth/solo-leveling-fitness.git
+cd solo-leveling-fitness
+
+# 2. Install dependencies
+npm install
+
+# 3. Development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deploy Otomatis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Push ke GitHub
+2. Import project di https://vercel.com
+3. Klik Deploy!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📅 Program Overview
 
-## Learn More
+| Minggu | Hari | Intensity | Fokus |
+|--------|------|-----------|-------|
+| 1 | 1-7 | 2-5 | Foundation - Bentuk kebiasaan |
+| 2 | 8-14 | 5-7 | Progressive - Tingkatkan beban |
+| 3 | 15-21 | 7-9 | Advanced - Latihan lebih hard |
+| 4 | 22-30 | 9-10 | Beast Mode - Ultimate challenge |
 
-To learn more about Next.js, take a look at the following resources:
+## 🏋️ Contoh Latihan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Day 1 (Intensity: 2/10)
+- Jumping Jacks: 2×20
+- Bodyweight Squats: 2×10
+- Push-ups (Knees): 2×8
+- Plank Hold: 2×20 sec
+- Lunges: 2×8 each leg
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Day 30 (Intensity: 10/10)
+- Push-ups: 7×40
+- Bodyweight Squats: 7×40
+- Burpees: 6×30
+- Diamond Push-ups: 6×30
+- Plank Hold: 6×100 sec
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js 14
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Lisensi
+
+MIT License
+
+## 👤 Author
+
+Created with 💚 by [Ilham](https://github.com/mail-eth)
+
+---
+
+* transforms yourself in 30 days! ⚔️
